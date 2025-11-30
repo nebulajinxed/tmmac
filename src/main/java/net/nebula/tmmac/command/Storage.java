@@ -30,6 +30,7 @@ public class Storage {
             Map<String, Float> loaded = GSON.fromJson(reader, MAP_TYPE);
             if (loaded != null) {
                 configValues = loaded;
+            } else {
                 if (!configValues.containsValue("gunrange")) {
                     configValues.put("gunrange", 18.0f);
                 }

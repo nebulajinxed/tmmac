@@ -23,7 +23,7 @@ public class ConfigCommands {
                     .requires(source -> source.hasPermissionLevel(2))
                     .then(argument("gunrange", FloatArgumentType.floatArg(0))
                             .executes(context -> {
-                                float gunrange = IntegerArgumentType.getInteger(context, "gunrange");
+                                float gunrange = FloatArgumentType.getFloat(context, "gunrange");
                                 ServerCommandSource source = context.getSource();
 
                                 Storage.set("gunrange", gunrange, source.getServer());
@@ -41,7 +41,7 @@ public class ConfigCommands {
                     .requires(source -> source.hasPermissionLevel(2))
                     .then(argument("kniferange", FloatArgumentType.floatArg(0))
                             .executes(context -> {
-                                int kniferange = IntegerArgumentType.getInteger(context, "kniferange");
+                                float kniferange = FloatArgumentType.getFloat(context, "kniferange");
                                 ServerCommandSource source = context.getSource();
 
                                 Storage.set("kniferange", kniferange, source.getServer());

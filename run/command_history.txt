@@ -1,0 +1,12 @@
+/tmmaddon:cheat restrictions
+/tmm:setVisual time day
+/tmmaddon:knife Player555
+/tmmaddon:shoot Player555
+/tmmaddon:knife Player555
+/setKnifeRange 1
+/tmmaddon:knife Player555
+/tmmaddon:shoot Player555
+/tmmaddon:shoot Player726
+/tmmaddon:knife Player726
+/tmmaddon:knife Player725
+/tmmaddon:shoot Player725
